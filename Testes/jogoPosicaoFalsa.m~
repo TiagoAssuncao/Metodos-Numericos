@@ -1,0 +1,16 @@
+clc;
+funcao = input('Entre com a funcao: ');
+rangeA = input('Digite o limite A: ');
+rangeB = input('Digite o limite B: ');
+erroMaximo = input('Digigite um valor para o erro: ');
+
+if(rangeA > rangeB)
+    changeValues = rangeB;
+    rangeB = rangeA;
+    rangeA= rangeB;
+else
+    %nothig to do
+end
+
+a = rangeA;
+b = rangeB;
